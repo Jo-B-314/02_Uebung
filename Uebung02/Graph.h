@@ -54,39 +54,71 @@ template <typename NodeLabel> class Graph
 
 	/**
 	 * Detailed constructor that also creates the nodes 
-	 * od the Graph.
+	 * of the Graph.
 	 */
-	explicit Graph(const std::vector<NodeLabel>& new_nodes);
+	explicit Graph(const std::vector<NodeLabel>& new_nodes): nodes_(new_nodes){}
 
 	/**
 	 * Node iterators.
 	 */
-	node_iterator beginNodes();
-	node_iterator endNodes();
+	node_iterator beginNodes() { return nodes_.begin(); }
+	node_iterator endNodes() { return nodes_.end(); }
 
-	const_node_iterator beginNodes() const;
-	const_node_iterator endNodes() const;
+	const_node_iterator beginNodes() const { return nodes_.cbegin(); }
+	const_node_iterator endNodes() const { return nodes_.cend(); }
 
 	/**
 	 * Creates a Node with a distict label and return a pointer to the new Node.
 	 */
-	Node* addNode(const NodeLabel& label);
+	Node* addNode(const NodeLabel& label) {
+        Node node(label);
+        nodes_.push_back(node);
+        Node* nodep = &node;
+        return nodep;
+    }
 
 	/**
 	 * Creates an edge and returns a copy of it.
 	 */
-	Edge addEdge(Node* n1, Node* n2, size_t weight = 0);
+	Edge addEdge(Node* n1, Node* n2, size_t weight = 0) {
+        Edge edge(n1, n2, weight);
+        n1->out_edges.push_back(std::make_pair(n2, weight));
+        return edge;
+    }
 
 	/**
 	 * Removes the given edge.
 	 */
-	void removeEdge(const Edge& e);
+	void removeEdge(const Edge& e) {
+        Node* node = e.source;
+        //removes all pairs which are equal to (e.target, e.weight)
+        remove(node->out_edges.begin(), node->out_edges.end(), std::make_pair(e.target, e.weight));
+    }
 
 	/**
 	 * If the graph contains an edge betwenn n1 and n2,
 	 * it is removed.
 	 */
-	void removeEdge(Node* n1, const Node* n2);
+	void removeEdge(Node* n1, const Node* n2) {
+        auto iter1 = n1->out_edges.begin();
+        while (iter1 != n1->out_edges.end()) {
+            auto pair = *iter1;
+            if (pair.first == n2) { 
+                n1->out_edges.erase(iter1);
+                return;
+            }
+            iter1++;
+        }
+        auto iter2 = n2->out_edges.begin();
+        while (iter2 != n2->out_edges.end()) {
+            auto pair = *iter2;
+            if (pair.first == n1) {
+                n2->out_edges.erase(iter2);
+                return;
+            }
+            iter2++;
+        }
+    }
 
 	/**
 	 * Performs an edge contraction. (see: Wikipedia)
@@ -96,7 +128,9 @@ template <typename NodeLabel> class Graph
 	/**
 	 * Return the number of nodes in the graph.
 	 */
-	size_t numNodes() const;
+	size_t numNodes() const {
+        return nodes_.size();
+    }
 
   private:
 	NodeContainer nodes_;
