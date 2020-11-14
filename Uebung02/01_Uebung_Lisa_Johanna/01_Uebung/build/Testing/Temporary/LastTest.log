@@ -1,0 +1,250 @@
+Start testing: Nov 14 13:49 CET
+----------------------------------------------------------
+1/6 Testing: Sequence_test
+1/6 Test: Sequence_test
+Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test/Sequence_test"
+Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test
+"Sequence_test" start time: Nov 14 13:49 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 18 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 17 tests from Sequence
+[ RUN      ] Sequence.toStringSimple
+[       OK ] Sequence.toStringSimple (0 ms)
+[ RUN      ] Sequence.mapSimple
+[       OK ] Sequence.mapSimple (0 ms)
+[ RUN      ] Sequence.mapIntronExon
+[       OK ] Sequence.mapIntronExon (0 ms)
+[ RUN      ] Sequence.mapMoreChars
+[       OK ] Sequence.mapMoreChars (0 ms)
+[ RUN      ] Sequence.no_overlap
+[       OK ] Sequence.no_overlap (0 ms)
+[ RUN      ] Sequence.simpleOverlap
+[       OK ] Sequence.simpleOverlap (0 ms)
+[ RUN      ] Sequence.Overlap
+[       OK ] Sequence.Overlap (0 ms)
+[ RUN      ] Sequence.overlap_repeat
+[       OK ] Sequence.overlap_repeat (0 ms)
+[ RUN      ] Sequence.fromStringTest
+[       OK ] Sequence.fromStringTest (0 ms)
+[ RUN      ] Sequence.equalOp
+[       OK ] Sequence.equalOp (0 ms)
+[ RUN      ] Sequence.ineqalOp
+[       OK ] Sequence.ineqalOp (0 ms)
+[ RUN      ] Sequence.ostreamOp
+[       OK ] Sequence.ostreamOp (0 ms)
+[ RUN      ] Sequence.istreamOp
+[       OK ] Sequence.istreamOp (0 ms)
+[ RUN      ] Sequence.compare_equal
+[       OK ] Sequence.compare_equal (0 ms)
+[ RUN      ] Sequence.compare_index_fail
+[       OK ] Sequence.compare_index_fail (0 ms)
+[ RUN      ] Sequence.to2Bit
+01000100011001000000001000000000
+01000100011001000000001000000000
+[       OK ] Sequence.to2Bit (0 ms)
+[ RUN      ] Sequence.to2Bitplus
+0100010000000000
+0100010000000000
+[       OK ] Sequence.to2Bitplus (0 ms)
+[----------] 17 tests from Sequence (0 ms total)
+
+[----------] 1 test from sequence
+[ RUN      ] sequence.compare_not_equal
+[       OK ] sequence.compare_not_equal (0 ms)
+[----------] 1 test from sequence (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 18 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 18 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Sequence_test" end time: Nov 14 13:49 CET
+"Sequence_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/6 Testing: DNA_test
+2/6 Test: DNA_test
+Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test/DNA_test"
+Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test
+"DNA_test" start time: Nov 14 13:49 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 11 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 11 tests from DNA
+[ RUN      ] DNA.simpleToChar
+[       OK ] DNA.simpleToChar (0 ms)
+[ RUN      ] DNA.invalidChar
+[       OK ] DNA.invalidChar (0 ms)
+[ RUN      ] DNA.insensitiveN
+[       OK ] DNA.insensitiveN (0 ms)
+[ RUN      ] DNA.toCharSimple
+[       OK ] DNA.toCharSimple (0 ms)
+[ RUN      ] DNA.canoncalize
+[       OK ] DNA.canoncalize (0 ms)
+[ RUN      ] DNA.to2Bit
+[       OK ] DNA.to2Bit (0 ms)
+[ RUN      ] DNA.to2BitMask
+[       OK ] DNA.to2BitMask (0 ms)
+[ RUN      ] DNA.to2BitMaskfail
+[       OK ] DNA.to2BitMaskfail (0 ms)
+[ RUN      ] DNA.from2Bit
+[       OK ] DNA.from2Bit (0 ms)
+[ RUN      ] DNA.intron
+[       OK ] DNA.intron (0 ms)
+[ RUN      ] DNA.from2BitMask
+[       OK ] DNA.from2BitMask (0 ms)
+[----------] 11 tests from DNA (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"DNA_test" end time: Nov 14 13:49 CET
+"DNA_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/6 Testing: RNA_test
+3/6 Test: RNA_test
+Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test/RNA_test"
+Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test
+"RNA_test" start time: Nov 14 13:49 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from RNA
+[ RUN      ] RNA.simpleToChar
+[       OK ] RNA.simpleToChar (0 ms)
+[ RUN      ] RNA.invalidChar
+[       OK ] RNA.invalidChar (0 ms)
+[ RUN      ] RNA.insensitive
+[       OK ] RNA.insensitive (0 ms)
+[ RUN      ] RNA.toChar
+[       OK ] RNA.toChar (0 ms)
+[----------] 4 tests from RNA (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RNA_test" end time: Nov 14 13:49 CET
+"RNA_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/6 Testing: Peptide_test
+4/6 Test: Peptide_test
+Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test/Peptide_test"
+Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test
+"Peptide_test" start time: Nov 14 13:49 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from Peptide
+[ RUN      ] Peptide.toCharacterSimple
+[       OK ] Peptide.toCharacterSimple (0 ms)
+[ RUN      ] Peptide.insensitive
+[       OK ] Peptide.insensitive (0 ms)
+[ RUN      ] Peptide.InvalidCharacter
+[       OK ] Peptide.InvalidCharacter (0 ms)
+[ RUN      ] Peptide.toChar
+[       OK ] Peptide.toChar (0 ms)
+[----------] 4 tests from Peptide (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Peptide_test" end time: Nov 14 13:49 CET
+"Peptide_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/6 Testing: Fasta_test
+5/6 Test: Fasta_test
+Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test/Fasta_test"
+Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test
+"Fasta_test" start time: Nov 14 13:49 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 7 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 7 tests from Fasta
+[ RUN      ] Fasta.writerSimpleComment
+[       OK ] Fasta.writerSimpleComment (0 ms)
+[ RUN      ] Fasta.writerDnaSequence
+[       OK ] Fasta.writerDnaSequence (0 ms)
+[ RUN      ] Fasta.ostreamPeptide
+[       OK ] Fasta.ostreamPeptide (0 ms)
+[ RUN      ] Fasta.ostreamDNA
+[       OK ] Fasta.ostreamDNA (0 ms)
+[ RUN      ] Fasta.ostreamComment
+[       OK ] Fasta.ostreamComment (1 ms)
+[ RUN      ] Fasta.istreamDNA
+[       OK ] Fasta.istreamDNA (0 ms)
+[ RUN      ] Fasta.toFasta
+[       OK ] Fasta.toFasta (0 ms)
+[----------] 7 tests from Fasta (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 1 test case ran. (1 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Fasta_test" end time: Nov 14 13:49 CET
+"Fasta_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/6 Testing: 2Bit_test
+6/6 Test: 2Bit_test
+Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test/2Bit_test"
+Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/01_Uebung_Lisa_Johanna/01_Uebung/build/test
+"2Bit_test" start time: Nov 14 13:49 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from Bit2
+[ RUN      ] Bit2.ostreamExon
+[       OK ] Bit2.ostreamExon (0 ms)
+[ RUN      ] Bit2.ostreamIntron
+[       OK ] Bit2.ostreamIntron (0 ms)
+[ RUN      ] Bit2.istreamSimple
+[       OK ] Bit2.istreamSimple (0 ms)
+[ RUN      ] Bit2.istreamError
+[       OK ] Bit2.istreamError (0 ms)
+[----------] 4 tests from Bit2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"2Bit_test" end time: Nov 14 13:49 CET
+"2Bit_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 14 13:49 CET

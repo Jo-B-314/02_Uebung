@@ -1,0 +1,7 @@
+Sequence_test 2 0.00473249
+DNA_test 2 0.00454152
+RNA_test 2 0.00810945
+Peptide_test 2 0.006253
+Fasta_test 1 0.0125
+2Bit_test 2 0.00624704
+---
