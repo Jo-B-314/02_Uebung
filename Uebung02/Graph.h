@@ -5,7 +5,9 @@
 #include <list>
 #include <memory>
 #include <vector>
+#include <iostream>
 
+#include "Sequence.h"
 /**
  * Generic implementation of a graph class.
  */
@@ -20,7 +22,7 @@ template <typename NodeLabel> class Graph
   	 */
 	struct Node
 	{
-		explicit Node(const NodeLabel& l) : label(l) {}
+		explicit Node(const NodeLabel& l) : label(l), out_edges() {}
 		NodeLabel label;
 		std::vector<std::pair<Node*, size_t>> out_edges;
 	};
@@ -56,7 +58,13 @@ template <typename NodeLabel> class Graph
 	 * Detailed constructor that also creates the nodes 
 	 * of the Graph.
 	 */
-	explicit Graph(const std::vector<NodeLabel>& new_nodes): nodes_(new_nodes){}
+	explicit Graph(const std::vector<NodeLabel>& new_nodes){
+        auto iter = new_nodes.begin();
+        while (iter != new_nodes.end()) {
+            addNode(*iter);
+            iter++;
+        }
+    }
 
 	/**
 	 * Node iterators.
@@ -73,7 +81,7 @@ template <typename NodeLabel> class Graph
 	Node* addNode(const NodeLabel& label) {
         Node node(label);
         nodes_.push_back(node);
-        Node* nodep = &node;
+        Node* nodep = &nodes_.back();
         return nodep;
     }
 
@@ -82,7 +90,13 @@ template <typename NodeLabel> class Graph
 	 */
 	Edge addEdge(Node* n1, Node* n2, size_t weight = 0) {
         Edge edge(n1, n2, weight);
-        n1->out_edges.push_back(std::make_pair(n2, weight));
+        auto pair = std::make_pair(n2, weight);
+        auto iter = n1->out_edges.begin();
+        while (iter != n1->out_edges.end()) {
+            if (*iter == pair) { std::cout << "if"; return edge; }
+            iter++;
+        }
+        n1->out_edges.push_back(pair);
         return edge;
     }
 
@@ -123,7 +137,10 @@ template <typename NodeLabel> class Graph
 	/**
 	 * Performs an edge contraction. (see: Wikipedia)
 	 */
-	Node* contractEdge(const Edge& rem);
+	Node* contractEdge(const Edge& rem) {
+        Node* n1 = rem.source;
+        Node* n2 = rem.target;
+    }
 
 	/**
 	 * Return the number of nodes in the graph.

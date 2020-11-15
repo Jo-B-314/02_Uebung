@@ -19,6 +19,10 @@ memory
 -
 vector
 -
+iostream
+-
+Sequence.h
+/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
 
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
 algorithm
@@ -48,6 +52,8 @@ set
 vector
 -
 deque
+-
+string
 -
 ../Sequence.h
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
