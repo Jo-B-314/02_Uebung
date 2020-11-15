@@ -1,29 +1,31 @@
-Start testing: Nov 15 13:14 CET
+Start testing: Nov 15 14:44 CET
 ----------------------------------------------------------
 1/1 Testing: Graph_test
 1/1 Test: Graph_test
 Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/test/Graph_test"
 Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/test
-"Graph_test" start time: Nov 15 13:14 CET
+"Graph_test" start time: Nov 15 14:44 CET
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
-[==========] Running 1 test from 1 test case.
+[==========] Running 2 tests from 1 test case.
 [----------] Global test environment set-up.
-[----------] 1 test from Graph
+[----------] 2 tests from Graph
 [ RUN      ] Graph.oneEdge
 [       OK ] Graph.oneEdge (0 ms)
-[----------] 1 test from Graph (0 ms total)
+[ RUN      ] Graph.contractEdge
+[       OK ] Graph.contractEdge (0 ms)
+[----------] 2 tests from Graph (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 1 test from 1 test case ran. (0 ms total)
-[  PASSED  ] 1 test.
+[==========] 2 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 2 tests.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Graph_test" end time: Nov 15 13:14 CET
+"Graph_test" end time: Nov 15 14:44 CET
 "Graph_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 15 13:14 CET
+End testing: Nov 15 14:44 CET

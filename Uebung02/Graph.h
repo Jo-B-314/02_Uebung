@@ -93,7 +93,7 @@ template <typename NodeLabel> class Graph
         auto pair = std::make_pair(n2, weight);
         auto iter = n1->out_edges.begin();
         while (iter != n1->out_edges.end()) {
-            if (*iter == pair) { std::cout << "if"; return edge; }
+            if (*iter == pair) { return edge; }
             iter++;
         }
         n1->out_edges.push_back(pair);
@@ -123,15 +123,6 @@ template <typename NodeLabel> class Graph
             }
             iter1++;
         }
-        auto iter2 = n2->out_edges.begin();
-        while (iter2 != n2->out_edges.end()) {
-            auto pair = *iter2;
-            if (pair.first == n1) {
-                n2->out_edges.erase(iter2);
-                return;
-            }
-            iter2++;
-        }
     }
 
 	/**
@@ -140,6 +131,65 @@ template <typename NodeLabel> class Graph
 	Node* contractEdge(const Edge& rem) {
         Node* n1 = rem.source;
         Node* n2 = rem.target;
+        size_t overlap = n1->label.overlap(n2->label);
+        NodeLabel new_label;
+        for (size_t i = 0; i < n1->label.size() - overlap; i++) {
+            new_label.push_back(n1->label[i]);
+        }
+        for (size_t i = 0; i < n2->label.size(); i++) {
+            new_label.push_back(n2->label[i]);
+        }
+        Node* n12 = addNode(new_label);
+        n12->out_edges = n1->out_edges;
+        /*
+         * all outgoing edges of n1 are also outgoing edges of n12
+         * but we have to use addEdge for all the edges of n2 to make sure that we have no
+         * edge twice in our storage
+         */
+        auto out_iter = n2->out_edges.begin();
+        while (out_iter != n2->out_edges.end()) {
+            addEdge(n12, out_iter->first, out_iter->second);
+            out_iter++;
+        }
+        
+        node_iterator node_iter = beginNodes();
+        while (node_iter != endNodes()) {
+            auto edge_iter = node_iter->out_edges.begin();
+            while (edge_iter != node_iter->out_edges.end()) {
+                Node* first = edge_iter->first;
+                if (first == n1) {
+                    /*
+                     * looks a little bit strange but it was the fastest way to solve 
+                     * the problem with the compiler
+                     */
+                    addEdge(&(*node_iter), n12, edge_iter->second);
+                    removeEdge(&(*node_iter), first);
+                    edge_iter = node_iter->out_edges.begin();
+                    continue;
+                }
+                if (first == n2) {
+                    removeEdge(&(*node_iter), first);
+                    /*
+                     * it's not very efficent but otherwise we get a segmentation fault
+                     * but we should think again about this again
+                     */
+                    edge_iter = node_iter->out_edges.begin();
+                    continue;
+                }
+                edge_iter++;
+            }
+            node_iter++;
+        }
+        node_iterator iterator = beginNodes();
+        while (iterator != endNodes()) {
+            if (&(*iterator) == n1 || &(*iterator) == n2) {
+                node_iterator rem = iterator;
+                iterator = nodes_.erase(rem);
+                continue;
+            }
+            iterator++;
+        }
+        return n12;
     }
 
 	/**
