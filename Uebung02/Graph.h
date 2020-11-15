@@ -6,6 +6,8 @@
 #include <memory>
 #include <vector>
 #include <iostream>
+#include <ostream>
+#include <string>
 
 #include "Sequence.h"
 /**
@@ -198,10 +200,34 @@ template <typename NodeLabel> class Graph
 	size_t numNodes() const {
         return nodes_.size();
     }
+    
+    /**
+     * global output iterator
+     */
+    template <typename NL>
+	friend std::ostream& operator<<(std::ostream& os, const Graph<NL>& graph);
 
   private:
 	NodeContainer nodes_;
 };
 
+template <typename NL>
+std::ostream& operator<<(std::ostream& os, const Graph<NL>& graph) {
+    os << "diagraph Sequences {\n" << "nodesep=0.7\n";
+    auto node_iter = graph.beginNodes();
+    while (node_iter != graph.endNodes()) {
+        std::string name1 = node_iter->label.toString();
+        auto edge_iter = node_iter->out_edges.begin();
+        while (edge_iter != node_iter->out_edges.end()) {
+            std::string name2 = (edge_iter->first)->label.toString();
+            size_t label = edge_iter->second;
+            os << name1 << " -> " << name2 << " [label=\"" << label << "\"]\n"; 
+            edge_iter++;
+        }
+        node_iter++;
+    }
+    os << "}\n";
+    return os;
+}
 #endif // BIOINFOI_GRAPH_H
 

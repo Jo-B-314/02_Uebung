@@ -21,6 +21,10 @@ vector
 -
 iostream
 -
+ostream
+-
+string
+-
 Sequence.h
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
 

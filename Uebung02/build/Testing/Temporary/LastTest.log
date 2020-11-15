@@ -1,10 +1,10 @@
-Start testing: Nov 15 14:44 CET
+Start testing: Nov 15 15:07 CET
 ----------------------------------------------------------
 1/1 Testing: Graph_test
 1/1 Test: Graph_test
 Command: "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/test/Graph_test"
 Directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/test
-"Graph_test" start time: Nov 15 14:44 CET
+"Graph_test" start time: Nov 15 15:07 CET
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
@@ -14,6 +14,18 @@ Running main() from gtest_main.cc
 [ RUN      ] Graph.oneEdge
 [       OK ] Graph.oneEdge (0 ms)
 [ RUN      ] Graph.contractEdge
+diagraph Sequences {
+nodesep=0.7
+GGATTG -> GATTGG [label="5"]
+GATTGG -> CACGGA [label="0"]
+CACGGA -> GGATTG [label="3"]
+CACGGA -> GATTGG [label="2"]
+}
+diagraph Sequences {
+nodesep=0.7
+CACGGA -> GGATTGG [label="3"]
+GGATTGG -> CACGGA [label="0"]
+}
 [       OK ] Graph.contractEdge (0 ms)
 [----------] 2 tests from Graph (0 ms total)
 
@@ -24,8 +36,8 @@ Running main() from gtest_main.cc
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"Graph_test" end time: Nov 15 14:44 CET
+"Graph_test" end time: Nov 15 15:07 CET
 "Graph_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 15 14:44 CET
+End testing: Nov 15 15:07 CET
