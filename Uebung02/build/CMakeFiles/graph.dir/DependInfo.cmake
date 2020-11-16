@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/graph.cpp" "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/graph.dir/graph.cpp.o"
+  "/home/stud/s8jobech/2.Uebung/Uebung02/graph.cpp" "/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/graph.dir/graph.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -14,7 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/sequence.dir/DependInfo.cmake"
+  "/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/sequence.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

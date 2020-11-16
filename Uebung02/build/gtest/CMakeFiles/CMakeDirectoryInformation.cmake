@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/installer/import/debian/c++/googletest-1.7.0")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/stud/s8jobech/2.Uebung/Uebung02/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

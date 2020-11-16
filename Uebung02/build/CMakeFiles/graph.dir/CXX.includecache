@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Assembler.h
 Graph.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 DNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Fasta.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Fasta.h
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 ParsingException.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.h
+/home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.h
 istream
 -
 ostream
@@ -30,7 +30,7 @@ ostream
 iterator
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
 algorithm
 -
 list
@@ -46,15 +46,15 @@ ostream
 string
 -
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.h
+/home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.h
 exception
 -
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 algorithm
 -
 iterator
@@ -70,7 +70,7 @@ istream
 ostream
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/graph.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/graph.cpp
 iostream
 -
 string
@@ -82,11 +82,11 @@ fstream
 cassert
 -
 Fasta.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Fasta.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Fasta.h
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 DNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 Assembler.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Assembler.h
 

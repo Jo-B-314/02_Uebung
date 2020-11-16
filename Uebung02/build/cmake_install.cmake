@@ -1,4 +1,4 @@
-# Install script for directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02
+# Install script for directory: /home/stud/s8jobech/2.Uebung/Uebung02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/gtest/cmake_install.cmake")
-  include("/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/test/cmake_install.cmake")
+  include("/home/stud/s8jobech/2.Uebung/Uebung02/build/gtest/cmake_install.cmake")
+  include("/home/stud/s8jobech/2.Uebung/Uebung02/build/test/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stud/s8jobech/2.Uebung/Uebung02/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/test/main_test.cpp" "/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/test/CMakeFiles/test_driver.dir/main_test.cpp.o"
+  "/home/stud/s8jobech/2.Uebung/Uebung02/test/main_test.cpp" "/home/stud/s8jobech/2.Uebung/Uebung02/build/test/CMakeFiles/test_driver.dir/main_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

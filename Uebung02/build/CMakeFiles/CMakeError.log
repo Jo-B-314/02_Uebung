@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b9c12/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b9c12.dir/build.make CMakeFiles/cmTC_b9c12.dir/build
-make[1]: Entering directory '/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b9c12.dir/CheckSymbolExists.c.o
-/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_b9c12.dir/CheckSymbolExists.c.o   -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_b9c12
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9c12.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_b9c12.dir/CheckSymbolExists.c.o  -o cmTC_b9c12 -rdynamic 
-CMakeFiles/cmTC_b9c12.dir/CheckSymbolExists.c.o: In function `main':
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_b0f64/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b0f64.dir/build.make CMakeFiles/cmTC_b0f64.dir/build
+make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0f64.dir/CheckSymbolExists.c.o
+/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_b0f64.dir/CheckSymbolExists.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b0f64
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0f64.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_b0f64.dir/CheckSymbolExists.c.o  -o cmTC_b0f64 -rdynamic 
+CMakeFiles/cmTC_b0f64.dir/CheckSymbolExists.c.o: In function `main':
+/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:(.text+0x19): undefined reference to `pthread_create'
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
-CMakeFiles/cmTC_b9c12.dir/build.make:97: recipe for target 'cmTC_b9c12' failed
-make[1]: *** [cmTC_b9c12] Error 1
-make[1]: Leaving directory '/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b9c12/fast' failed
-make: *** [cmTC_b9c12/fast] Error 2
+CMakeFiles/cmTC_b0f64.dir/build.make:97: recipe for target 'cmTC_b0f64' failed
+make[1]: *** [cmTC_b0f64] Error 1
+make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b0f64/fast' failed
+make: *** [cmTC_b0f64/fast] Error 2
 
-File /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp
+Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_46001/fast"
-/usr/bin/make -f CMakeFiles/cmTC_46001.dir/build.make CMakeFiles/cmTC_46001.dir/build
-make[1]: Entering directory '/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_46001.dir/CheckFunctionExists.c.o
-/installer/import/debian/c++/clang/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_46001.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_46001
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46001.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_46001.dir/CheckFunctionExists.c.o  -o cmTC_46001 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_b9234/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b9234.dir/build.make CMakeFiles/cmTC_b9234.dir/build
+make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9234.dir/CheckFunctionExists.c.o
+/installer/import/debian/c++/clang/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b9234.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b9234
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9234.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b9234.dir/CheckFunctionExists.c.o  -o cmTC_b9234 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
-CMakeFiles/cmTC_46001.dir/build.make:97: recipe for target 'cmTC_46001' failed
-make[1]: *** [cmTC_46001] Error 1
-make[1]: Leaving directory '/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_46001/fast' failed
-make: *** [cmTC_46001/fast] Error 2
+CMakeFiles/cmTC_b9234.dir/build.make:97: recipe for target 'cmTC_b9234' failed
+make[1]: *** [cmTC_b9234] Error 1
+make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b9234/fast' failed
+make: *** [cmTC_b9234/fast] Error 2
 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02
+CMAKE_SOURCE_DIR = /home/stud/s8jobech/2.Uebung/Uebung02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build
+CMAKE_BINARY_DIR = /home/stud/s8jobech/2.Uebung/Uebung02/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sequence.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/sequence.dir/flags.make
 
 CMakeFiles/sequence.dir/2Bit.cpp.o: CMakeFiles/sequence.dir/flags.make
 CMakeFiles/sequence.dir/2Bit.cpp.o: ../2Bit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sequence.dir/2Bit.cpp.o"
-	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/2Bit.cpp.o -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/2Bit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sequence.dir/2Bit.cpp.o"
+	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/2Bit.cpp.o -c /home/stud/s8jobech/2.Uebung/Uebung02/2Bit.cpp
 
 CMakeFiles/sequence.dir/2Bit.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sequence.dir/2Bit.cpp.i"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/2Bit.cpp > CMakeFiles/sequence.dir/2Bit.cpp.i
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8jobech/2.Uebung/Uebung02/2Bit.cpp > CMakeFiles/sequence.dir/2Bit.cpp.i
 
 CMakeFiles/sequence.dir/2Bit.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sequence.dir/2Bit.cpp.s"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/2Bit.cpp -o CMakeFiles/sequence.dir/2Bit.cpp.s
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8jobech/2.Uebung/Uebung02/2Bit.cpp -o CMakeFiles/sequence.dir/2Bit.cpp.s
 
 CMakeFiles/sequence.dir/2Bit.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/sequence.dir/2Bit.cpp.o.provides.build: CMakeFiles/sequence.dir/2Bit.
 
 CMakeFiles/sequence.dir/DNA.cpp.o: CMakeFiles/sequence.dir/flags.make
 CMakeFiles/sequence.dir/DNA.cpp.o: ../DNA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sequence.dir/DNA.cpp.o"
-	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/DNA.cpp.o -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sequence.dir/DNA.cpp.o"
+	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/DNA.cpp.o -c /home/stud/s8jobech/2.Uebung/Uebung02/DNA.cpp
 
 CMakeFiles/sequence.dir/DNA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sequence.dir/DNA.cpp.i"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.cpp > CMakeFiles/sequence.dir/DNA.cpp.i
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8jobech/2.Uebung/Uebung02/DNA.cpp > CMakeFiles/sequence.dir/DNA.cpp.i
 
 CMakeFiles/sequence.dir/DNA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sequence.dir/DNA.cpp.s"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.cpp -o CMakeFiles/sequence.dir/DNA.cpp.s
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8jobech/2.Uebung/Uebung02/DNA.cpp -o CMakeFiles/sequence.dir/DNA.cpp.s
 
 CMakeFiles/sequence.dir/DNA.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/sequence.dir/DNA.cpp.o.provides.build: CMakeFiles/sequence.dir/DNA.cp
 
 CMakeFiles/sequence.dir/InvalidCharacter.cpp.o: CMakeFiles/sequence.dir/flags.make
 CMakeFiles/sequence.dir/InvalidCharacter.cpp.o: ../InvalidCharacter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sequence.dir/InvalidCharacter.cpp.o"
-	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/InvalidCharacter.cpp.o -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sequence.dir/InvalidCharacter.cpp.o"
+	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/InvalidCharacter.cpp.o -c /home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.cpp
 
 CMakeFiles/sequence.dir/InvalidCharacter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sequence.dir/InvalidCharacter.cpp.i"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.cpp > CMakeFiles/sequence.dir/InvalidCharacter.cpp.i
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.cpp > CMakeFiles/sequence.dir/InvalidCharacter.cpp.i
 
 CMakeFiles/sequence.dir/InvalidCharacter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sequence.dir/InvalidCharacter.cpp.s"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.cpp -o CMakeFiles/sequence.dir/InvalidCharacter.cpp.s
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.cpp -o CMakeFiles/sequence.dir/InvalidCharacter.cpp.s
 
 CMakeFiles/sequence.dir/InvalidCharacter.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/sequence.dir/InvalidCharacter.cpp.o.provides.build: CMakeFiles/sequen
 
 CMakeFiles/sequence.dir/ParsingException.cpp.o: CMakeFiles/sequence.dir/flags.make
 CMakeFiles/sequence.dir/ParsingException.cpp.o: ../ParsingException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sequence.dir/ParsingException.cpp.o"
-	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/ParsingException.cpp.o -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sequence.dir/ParsingException.cpp.o"
+	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/ParsingException.cpp.o -c /home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.cpp
 
 CMakeFiles/sequence.dir/ParsingException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sequence.dir/ParsingException.cpp.i"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.cpp > CMakeFiles/sequence.dir/ParsingException.cpp.i
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.cpp > CMakeFiles/sequence.dir/ParsingException.cpp.i
 
 CMakeFiles/sequence.dir/ParsingException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sequence.dir/ParsingException.cpp.s"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.cpp -o CMakeFiles/sequence.dir/ParsingException.cpp.s
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.cpp -o CMakeFiles/sequence.dir/ParsingException.cpp.s
 
 CMakeFiles/sequence.dir/ParsingException.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/sequence.dir/ParsingException.cpp.o.provides.build: CMakeFiles/sequen
 
 CMakeFiles/sequence.dir/Peptide.cpp.o: CMakeFiles/sequence.dir/flags.make
 CMakeFiles/sequence.dir/Peptide.cpp.o: ../Peptide.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sequence.dir/Peptide.cpp.o"
-	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/Peptide.cpp.o -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Peptide.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sequence.dir/Peptide.cpp.o"
+	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/Peptide.cpp.o -c /home/stud/s8jobech/2.Uebung/Uebung02/Peptide.cpp
 
 CMakeFiles/sequence.dir/Peptide.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sequence.dir/Peptide.cpp.i"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Peptide.cpp > CMakeFiles/sequence.dir/Peptide.cpp.i
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8jobech/2.Uebung/Uebung02/Peptide.cpp > CMakeFiles/sequence.dir/Peptide.cpp.i
 
 CMakeFiles/sequence.dir/Peptide.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sequence.dir/Peptide.cpp.s"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Peptide.cpp -o CMakeFiles/sequence.dir/Peptide.cpp.s
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8jobech/2.Uebung/Uebung02/Peptide.cpp -o CMakeFiles/sequence.dir/Peptide.cpp.s
 
 CMakeFiles/sequence.dir/Peptide.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/sequence.dir/Peptide.cpp.o.provides.build: CMakeFiles/sequence.dir/Pe
 
 CMakeFiles/sequence.dir/RNA.cpp.o: CMakeFiles/sequence.dir/flags.make
 CMakeFiles/sequence.dir/RNA.cpp.o: ../RNA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sequence.dir/RNA.cpp.o"
-	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/RNA.cpp.o -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/RNA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sequence.dir/RNA.cpp.o"
+	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/RNA.cpp.o -c /home/stud/s8jobech/2.Uebung/Uebung02/RNA.cpp
 
 CMakeFiles/sequence.dir/RNA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sequence.dir/RNA.cpp.i"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/RNA.cpp > CMakeFiles/sequence.dir/RNA.cpp.i
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8jobech/2.Uebung/Uebung02/RNA.cpp > CMakeFiles/sequence.dir/RNA.cpp.i
 
 CMakeFiles/sequence.dir/RNA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sequence.dir/RNA.cpp.s"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/RNA.cpp -o CMakeFiles/sequence.dir/RNA.cpp.s
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8jobech/2.Uebung/Uebung02/RNA.cpp -o CMakeFiles/sequence.dir/RNA.cpp.s
 
 CMakeFiles/sequence.dir/RNA.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/sequence.dir/RNA.cpp.o.provides.build: CMakeFiles/sequence.dir/RNA.cp
 
 CMakeFiles/sequence.dir/Assembler.cpp.o: CMakeFiles/sequence.dir/flags.make
 CMakeFiles/sequence.dir/Assembler.cpp.o: ../Assembler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sequence.dir/Assembler.cpp.o"
-	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/Assembler.cpp.o -c /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sequence.dir/Assembler.cpp.o"
+	/installer/import/debian/c++/clang/bin/clang++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sequence.dir/Assembler.cpp.o -c /home/stud/s8jobech/2.Uebung/Uebung02/Assembler.cpp
 
 CMakeFiles/sequence.dir/Assembler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sequence.dir/Assembler.cpp.i"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.cpp > CMakeFiles/sequence.dir/Assembler.cpp.i
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stud/s8jobech/2.Uebung/Uebung02/Assembler.cpp > CMakeFiles/sequence.dir/Assembler.cpp.i
 
 CMakeFiles/sequence.dir/Assembler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sequence.dir/Assembler.cpp.s"
-	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.cpp -o CMakeFiles/sequence.dir/Assembler.cpp.s
+	/installer/import/debian/c++/clang/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stud/s8jobech/2.Uebung/Uebung02/Assembler.cpp -o CMakeFiles/sequence.dir/Assembler.cpp.s
 
 CMakeFiles/sequence.dir/Assembler.cpp.o.requires:
 
@@ -247,7 +247,7 @@ libsequence.so: CMakeFiles/sequence.dir/RNA.cpp.o
 libsequence.so: CMakeFiles/sequence.dir/Assembler.cpp.o
 libsequence.so: CMakeFiles/sequence.dir/build.make
 libsequence.so: CMakeFiles/sequence.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libsequence.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libsequence.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sequence.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -270,6 +270,6 @@ CMakeFiles/sequence.dir/clean:
 .PHONY : CMakeFiles/sequence.dir/clean
 
 CMakeFiles/sequence.dir/depend:
-	cd /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/sequence.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stud/s8jobech/2.Uebung/Uebung02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stud/s8jobech/2.Uebung/Uebung02 /home/stud/s8jobech/2.Uebung/Uebung02 /home/stud/s8jobech/2.Uebung/Uebung02/build /home/stud/s8jobech/2.Uebung/Uebung02/build /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/sequence.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sequence.dir/depend
 

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
 algorithm
 -
 list
@@ -26,9 +26,9 @@ ostream
 string
 -
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 algorithm
 -
 iterator
@@ -44,7 +44,7 @@ istream
 ostream
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/test/Graph_test.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/test/Graph_test.cpp
 gtest/gtest.h
 -
 memory
@@ -62,11 +62,11 @@ deque
 string
 -
 ../Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 ../DNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 ../Graph.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
 
 /installer/import/debian/c++/googletest-1.7.0/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

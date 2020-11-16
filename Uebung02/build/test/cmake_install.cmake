@@ -1,4 +1,4 @@
-# Install script for directory: /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/test
+# Install script for directory: /home/stud/s8jobech/2.Uebung/Uebung02/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/2Bit.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/2Bit.cpp
 2Bit.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/2Bit.h
+/home/stud/s8jobech/2.Uebung/Uebung02/2Bit.h
 ParsingException.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.h
+/home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.h
 cassert
 -
 cstdlib
@@ -26,25 +26,25 @@ istream
 sstream
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/2Bit.h
+/home/stud/s8jobech/2.Uebung/Uebung02/2Bit.h
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 DNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 istream
 -
 ostream
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/Assembler.cpp
 Assembler.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Assembler.h
 Graph.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 DNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 memory
 -
 vector
@@ -52,29 +52,29 @@ vector
 iostream
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Assembler.h
 Graph.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 DNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.cpp
 DNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 InvalidCharacter.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.h
+/home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.h
 ParsingException.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.h
+/home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.h
 cassert
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
 algorithm
 -
 list
@@ -90,53 +90,53 @@ ostream
 string
 -
 Sequence.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.cpp
 InvalidCharacter.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.h
+/home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.h
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.h
+/home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.h
 exception
 -
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.cpp
 ParsingException.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.h
+/home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.h
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/ParsingException.h
+/home/stud/s8jobech/2.Uebung/Uebung02/ParsingException.h
 exception
 -
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Peptide.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/Peptide.cpp
 Peptide.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Peptide.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Peptide.h
 InvalidCharacter.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.h
+/home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.h
 cassert
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Peptide.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Peptide.h
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/RNA.cpp
+/home/stud/s8jobech/2.Uebung/Uebung02/RNA.cpp
 RNA.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/RNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/RNA.h
 InvalidCharacter.h
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/InvalidCharacter.h
+/home/stud/s8jobech/2.Uebung/Uebung02/InvalidCharacter.h
 cassert
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/RNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/RNA.h
 string
 -
 
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
 algorithm
 -
 iterator

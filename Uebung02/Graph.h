@@ -108,7 +108,16 @@ template <typename NodeLabel> class Graph
 	void removeEdge(const Edge& e) {
         Node* node = e.source;
         //removes all pairs which are equal to (e.target, e.weight)
-        remove(node->out_edges.begin(), node->out_edges.end(), std::make_pair(e.target, e.weight));
+        //remove(node->out_edges.begin(), node->out_edges.end(), std::make_pair(e.target, e.weight));
+        auto iter2 = node->out_edges.begin();
+        while(iter2 != node->out_edges.end()) {
+            auto pair = *iter2;
+            if ((pair.first == e.target) && (pair.second == e.weight)) {
+                node->out_edges.erase(iter2);
+                return;
+            }
+            iter2++;
+        }
     }
 
 	/**

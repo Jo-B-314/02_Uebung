@@ -1,0 +1,44 @@
+Start testing: Nov 16 16:43 CET
+----------------------------------------------------------
+1/1 Testing: Graph_test
+1/1 Test: Graph_test
+Command: "/home/stud/s8jobech/2.Uebung/Uebung02/build/test/Graph_test"
+Directory: /home/stud/s8jobech/2.Uebung/Uebung02/build/test
+"Graph_test" start time: Nov 16 16:43 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 7 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 6 tests from Graph
+[ RUN      ] Graph.oneEdge
+[       OK ] Graph.oneEdge (0 ms)
+[ RUN      ] Graph.contractEdge
+[       OK ] Graph.contractEdge (0 ms)
+[ RUN      ] Graph.addNode
+[       OK ] Graph.addNode (0 ms)
+[ RUN      ] Graph.addEdge
+[       OK ] Graph.addEdge (0 ms)
+[ RUN      ] Graph.removeEdge1
+[       OK ] Graph.removeEdge1 (0 ms)
+[ RUN      ] Graph.removeEdges2
+[       OK ] Graph.removeEdges2 (0 ms)
+[----------] 6 tests from Graph (0 ms total)
+
+[----------] 1 test from graph
+[ RUN      ] graph.removeEdgesFail
+[       OK ] graph.removeEdgesFail (0 ms)
+[----------] 1 test from graph (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 7 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 7 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Graph_test" end time: Nov 16 16:43 CET
+"Graph_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 16 16:43 CET
