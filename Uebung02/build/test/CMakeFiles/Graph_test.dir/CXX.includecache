@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/stud/s8jobech/2.Uebung/Uebung02/Assembler.h
+Graph.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
+Sequence.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Sequence.h
+DNA.h
+/home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
+
 /home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 string
 -
@@ -67,6 +75,8 @@ string
 /home/stud/s8jobech/2.Uebung/Uebung02/DNA.h
 ../Graph.h
 /home/stud/s8jobech/2.Uebung/Uebung02/Graph.h
+../Assembler.h
+/home/stud/s8jobech/2.Uebung/Uebung02/Assembler.h
 
 /installer/import/debian/c++/googletest-1.7.0/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

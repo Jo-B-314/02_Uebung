@@ -10,8 +10,8 @@
 
 #include "../Sequence.h"
 #include "../DNA.h"
-
 #include "../Graph.h"
+#include "../Assembler.h"
 
 using namespace Alphabet;
 
@@ -146,4 +146,44 @@ TEST(graph, removeEdgesFail)
     ASSERT_EQ(val2, n1->out_edges.size());
     graph.removeEdge(n3, n1);
     ASSERT_EQ(val2, n1->out_edges.size());
+}
+
+TEST(Graph, contractFail)
+{
+    Sequence<DNA> seq1 = Sequence<DNA>::fromString("GCAATG");
+    Sequence<DNA> seq2 = Sequence<DNA>::fromString("CATGAG");
+    Sequence<DNA> seq3 = Sequence<DNA>::fromString("TACTTT");
+    Sequence<DNA> seq4 = Sequence<DNA>::fromString("ACGTAT");
+    Graph<Sequence<DNA>> graph;
+    Graph<Sequence<DNA>>::Node *n1 = graph.addNode(seq1);
+    Graph<Sequence<DNA>>::Node *n2 = graph.addNode(seq2);
+    Graph<Sequence<DNA>>::Node *n3 = graph.addNode(seq3);
+    Graph<Sequence<DNA>>::Node *n4 = graph.addNode(seq4);
+    graph.addEdge(n1, n4, 1);
+    graph.addEdge(n4, n2, 2);
+    graph.addEdge(n1, n3, 2);
+    Graph<Sequence<DNA>>::Edge ed (n3, n2, 5);
+    Graph<Sequence<DNA>>::Node *n12 = graph.contractEdge(ed);
+    size_t val0 = 0;
+    size_t val2 = 2;
+    ASSERT_EQ(val0, n12->out_edges.size());
+    ASSERT_EQ(val2, n1->out_edges.size());
+}
+
+TEST(Assembler, overlap)
+{
+    Sequence<DNA> seq1 = Sequence<DNA>::fromString("GCAATG");
+    Sequence<DNA> seq2 = Sequence<DNA>::fromString("CATGAG");
+    Graph<Sequence<DNA>> graph;
+    graph.addNode(seq1);
+    graph.addNode(seq2);
+    std::vector<Assembler::Seq> vec;
+    vec.push_back(seq1);
+    vec.push_back(seq2);
+    Assembler::Assembler ass (vec);
+    auto graph1 = ass.getGraph();
+    auto nodes = graph.numNodes();
+    auto nodes1 = graph1.numNodes();
+    bool b = (nodes == nodes1);
+    ASSERT_EQ(1, b);
 }
