@@ -67,17 +67,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -88,6 +77,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -133,6 +133,19 @@ sequence: cmake_check_build_system
 sequence/fast:
 	$(MAKE) -f CMakeFiles/sequence.dir/build.make CMakeFiles/sequence.dir/build
 .PHONY : sequence/fast
+
+#=============================================================================
+# Target rules for targets named graph
+
+# Build rule for target.
+graph: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 graph
+.PHONY : graph
+
+# fast build rule for target.
+graph/fast:
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/build
+.PHONY : graph/fast
 
 #=============================================================================
 # Target rules for targets named gtest_main
@@ -375,6 +388,33 @@ RNA.cpp.s:
 	$(MAKE) -f CMakeFiles/sequence.dir/build.make CMakeFiles/sequence.dir/RNA.cpp.s
 .PHONY : RNA.cpp.s
 
+graph.o: graph.cpp.o
+
+.PHONY : graph.o
+
+# target to build an object file
+graph.cpp.o:
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/graph.cpp.o
+.PHONY : graph.cpp.o
+
+graph.i: graph.cpp.i
+
+.PHONY : graph.i
+
+# target to preprocess a source file
+graph.cpp.i:
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/graph.cpp.i
+.PHONY : graph.cpp.i
+
+graph.s: graph.cpp.s
+
+.PHONY : graph.s
+
+# target to generate assembly for a file
+graph.cpp.s:
+	$(MAKE) -f CMakeFiles/graph.dir/build.make CMakeFiles/graph.dir/graph.cpp.s
+.PHONY : graph.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -382,9 +422,10 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... test"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... sequence"
+	@echo "... edit_cache"
+	@echo "... graph"
+	@echo "... rebuild_cache"
 	@echo "... gtest_main"
 	@echo "... gtest"
 	@echo "... test_driver"
@@ -410,6 +451,9 @@ help:
 	@echo "... RNA.o"
 	@echo "... RNA.i"
 	@echo "... RNA.s"
+	@echo "... graph.o"
+	@echo "... graph.i"
+	@echo "... graph.s"
 .PHONY : help
 
 

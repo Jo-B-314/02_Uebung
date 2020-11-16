@@ -135,6 +135,10 @@ template <typename NodeLabel> class Graph
         Node* n2 = rem.target;
         size_t overlap = n1->label.overlap(n2->label);
         NodeLabel new_label;
+        /*
+         * in the OH we were told to get a label with the beginning of label1 and the end of label2
+         * we assume that we use our graph only for template types with a method overlap()
+         */
         for (size_t i = 0; i < n1->label.size() - overlap; i++) {
             new_label.push_back(n1->label[i]);
         }
@@ -142,17 +146,12 @@ template <typename NodeLabel> class Graph
             new_label.push_back(n2->label[i]);
         }
         Node* n12 = addNode(new_label);
-        n12->out_edges = n1->out_edges;
+        n12->out_edges = n2->out_edges;
         /*
-         * all outgoing edges of n1 are also outgoing edges of n12
-         * but we have to use addEdge for all the edges of n2 to make sure that we have no
-         * edge twice in our storage
+         * all outgoing edges of n2 are also outgoing edges of n12
+         * all outgoing edges of n1 will be ignored  because we heard in the
+         * OH that it makes no sense to let them be also edges of n12 in a overlap-graph
          */
-        auto out_iter = n2->out_edges.begin();
-        while (out_iter != n2->out_edges.end()) {
-            addEdge(n12, out_iter->first, out_iter->second);
-            out_iter++;
-        }
         
         node_iterator node_iter = beginNodes();
         while (node_iter != endNodes()) {
@@ -213,7 +212,7 @@ template <typename NodeLabel> class Graph
 
 template <typename NL>
 std::ostream& operator<<(std::ostream& os, const Graph<NL>& graph) {
-    os << "diagraph Sequences {\n" << "nodesep=0.7\n";
+    os << "digraph Sequences {\n" << "nodesep=0.7\n";
     auto node_iter = graph.beginNodes();
     while (node_iter != graph.endNodes()) {
         std::string name1 = node_iter->label.toString();

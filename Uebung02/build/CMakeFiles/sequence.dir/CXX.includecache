@@ -39,6 +39,18 @@ ostream
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.cpp
 Assembler.h
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.h
+Graph.h
+/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Graph.h
+Sequence.h
+/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Sequence.h
+DNA.h
+/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/DNA.h
+memory
+-
+vector
+-
+iostream
+-
 
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/Assembler.h
 Graph.h

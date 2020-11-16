@@ -1,7 +1,8 @@
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/test.dir
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/rebuild_cache.dir
-/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/edit_cache.dir
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/sequence.dir
+/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/edit_cache.dir
+/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/graph.dir
+/home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/CMakeFiles/rebuild_cache.dir
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/gtest/CMakeFiles/test.dir
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/gtest/CMakeFiles/gtest_main.dir
 /home/stud/s8liroll/Bioinfo1/02_Uebung/Uebung2_Johanna_Lisa/Uebung02/build/gtest/CMakeFiles/edit_cache.dir
