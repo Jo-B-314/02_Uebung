@@ -28,28 +28,28 @@ The CXX compiler identification is Clang, found in "/home/stud/s8jobech/2.Uebung
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73738/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73738.dir/build.make CMakeFiles/cmTC_73738.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_60073/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60073.dir/build.make CMakeFiles/cmTC_60073.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_73738.dir/testCCompiler.c.o
-/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_73738.dir/testCCompiler.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_73738
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73738.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_73738.dir/testCCompiler.c.o  -o cmTC_73738 -rdynamic 
+Building C object CMakeFiles/cmTC_60073.dir/testCCompiler.c.o
+/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_60073.dir/testCCompiler.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_60073
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60073.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_60073.dir/testCCompiler.c.o  -o cmTC_60073 -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9b69/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a9b69.dir/build.make CMakeFiles/cmTC_a9b69.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_92b10/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92b10.dir/build.make CMakeFiles/cmTC_92b10.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o
-/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_a9b69
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b69.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang      -v CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o  -o cmTC_a9b69 -rdynamic  
+Building C object CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o
+/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_92b10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92b10.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang      -v CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o  -o cmTC_92b10 -rdynamic  
 clang version 3.7.0 (tags/RELEASE_370/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -60,7 +60,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
 Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a9b69 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_92b10 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a9b69/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a9b69.dir/build.make CMakeFiles/cmTC_a9b69.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_92b10/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_92b10.dir/build.make CMakeFiles/cmTC_92b10.dir/build]
   ignore line: [make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_a9b69]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9b69.dir/link.txt --verbose=1]
-  ignore line: [/installer/import/debian/c++/clang/bin/clang      -v CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o  -o cmTC_a9b69 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_92b10]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92b10.dir/link.txt --verbose=1]
+  ignore line: [/installer/import/debian/c++/clang/bin/clang      -v CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o  -o cmTC_92b10 -rdynamic  ]
   ignore line: [clang version 3.7.0 (tags/RELEASE_370/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -88,7 +88,7 @@ Parsed C implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a9b69 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_92b10 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -97,7 +97,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_a9b69] ==> ignore
+    arg [cmTC_92b10] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -110,7 +110,7 @@ Parsed C implicit link information from above output:
     arg [-L/installer/import/debian/c++/clang/bin/../lib] ==> dir [/installer/import/debian/c++/clang/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_a9b69.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_92b10.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -145,14 +145,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9a0e6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9a0e6.dir/build.make CMakeFiles/cmTC_9a0e6.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_3f375/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3f375.dir/build.make CMakeFiles/cmTC_3f375.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9a0e6.dir/feature_tests.c.o
-/installer/import/debian/c++/clang/bin/clang    -std=c11 -o CMakeFiles/cmTC_9a0e6.dir/feature_tests.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9a0e6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a0e6.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_9a0e6.dir/feature_tests.c.o  -o cmTC_9a0e6 -rdynamic 
+Building C object CMakeFiles/cmTC_3f375.dir/feature_tests.c.o
+/installer/import/debian/c++/clang/bin/clang    -std=c11 -o CMakeFiles/cmTC_3f375.dir/feature_tests.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_3f375
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f375.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_3f375.dir/feature_tests.c.o  -o cmTC_3f375 -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -165,14 +165,14 @@ make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFil
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4d5a7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4d5a7.dir/build.make CMakeFiles/cmTC_4d5a7.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e4158/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4158.dir/build.make CMakeFiles/cmTC_e4158.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4d5a7.dir/feature_tests.c.o
-/installer/import/debian/c++/clang/bin/clang    -std=c99 -o CMakeFiles/cmTC_4d5a7.dir/feature_tests.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4d5a7
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d5a7.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_4d5a7.dir/feature_tests.c.o  -o cmTC_4d5a7 -rdynamic 
+Building C object CMakeFiles/cmTC_e4158.dir/feature_tests.c.o
+/installer/import/debian/c++/clang/bin/clang    -std=c99 -o CMakeFiles/cmTC_e4158.dir/feature_tests.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e4158
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4158.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_e4158.dir/feature_tests.c.o  -o cmTC_e4158 -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -185,14 +185,14 @@ make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFil
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_861b3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_861b3.dir/build.make CMakeFiles/cmTC_861b3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_751cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_751cd.dir/build.make CMakeFiles/cmTC_751cd.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_861b3.dir/feature_tests.c.o
-/installer/import/debian/c++/clang/bin/clang    -std=c90 -o CMakeFiles/cmTC_861b3.dir/feature_tests.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_861b3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_861b3.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_861b3.dir/feature_tests.c.o  -o cmTC_861b3 -rdynamic 
+Building C object CMakeFiles/cmTC_751cd.dir/feature_tests.c.o
+/installer/import/debian/c++/clang/bin/clang    -std=c90 -o CMakeFiles/cmTC_751cd.dir/feature_tests.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_751cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_751cd.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_751cd.dir/feature_tests.c.o  -o cmTC_751cd -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -203,28 +203,28 @@ make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFil
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_263e4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_263e4.dir/build.make CMakeFiles/cmTC_263e4.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_95ebf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95ebf.dir/build.make CMakeFiles/cmTC_95ebf.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_263e4.dir/testCXXCompiler.cxx.o
-/installer/import/debian/c++/clang/bin/clang++      -o CMakeFiles/cmTC_263e4.dir/testCXXCompiler.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_263e4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_263e4.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_263e4.dir/testCXXCompiler.cxx.o  -o cmTC_263e4 -rdynamic 
+Building CXX object CMakeFiles/cmTC_95ebf.dir/testCXXCompiler.cxx.o
+/installer/import/debian/c++/clang/bin/clang++      -o CMakeFiles/cmTC_95ebf.dir/testCXXCompiler.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_95ebf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95ebf.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_95ebf.dir/testCXXCompiler.cxx.o  -o cmTC_95ebf -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ce5ea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ce5ea.dir/build.make CMakeFiles/cmTC_ce5ea.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_45ee2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45ee2.dir/build.make CMakeFiles/cmTC_45ee2.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o
-/installer/import/debian/c++/clang/bin/clang++      -o CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_ce5ea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce5ea.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang++       -v CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ce5ea -rdynamic  
+Building CXX object CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o
+/installer/import/debian/c++/clang/bin/clang++      -o CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_45ee2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45ee2.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang++       -v CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_45ee2 -rdynamic  
 clang version 3.7.0 (tags/RELEASE_370/final)
 Target: x86_64-unknown-linux-gnu
 Thread model: posix
@@ -235,7 +235,7 @@ Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/6.0.0
 Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/5.4.0
 Candidate multilib: .;@m64
 Selected multilib: .;@m64
- "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ce5ea /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
+ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_45ee2 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -243,14 +243,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ce5ea/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ce5ea.dir/build.make CMakeFiles/cmTC_ce5ea.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_45ee2/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_45ee2.dir/build.make CMakeFiles/cmTC_45ee2.dir/build]
   ignore line: [make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/installer/import/debian/c++/clang/bin/clang++      -o CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_ce5ea]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce5ea.dir/link.txt --verbose=1]
-  ignore line: [/installer/import/debian/c++/clang/bin/clang++       -v CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_ce5ea -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/installer/import/debian/c++/clang/bin/clang++      -o CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_45ee2]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45ee2.dir/link.txt --verbose=1]
+  ignore line: [/installer/import/debian/c++/clang/bin/clang++       -v CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_45ee2 -rdynamic  ]
   ignore line: [clang version 3.7.0 (tags/RELEASE_370/final)]
   ignore line: [Target: x86_64-unknown-linux-gnu]
   ignore line: [Thread model: posix]
@@ -263,7 +263,7 @@ Parsed CXX implicit link information from above output:
   ignore line: [@m64]
   ignore line: [Selected multilib: .]
   ignore line: [@m64]
-  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_ce5ea /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
+  link line: [ "/usr/bin/ld" -export-dynamic --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_45ee2 /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0 -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../.. -L/installer/import/debian/c++/clang/bin/../lib -L/lib -L/usr/lib CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/bin/ld] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
@@ -272,7 +272,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ce5ea] ==> ignore
+    arg [cmTC_45ee2] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5.4.0/crtbegin.o] ==> ignore
@@ -285,7 +285,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/installer/import/debian/c++/clang/bin/../lib] ==> dir [/installer/import/debian/c++/clang/bin/../lib]
     arg [-L/lib] ==> dir [/lib]
     arg [-L/usr/lib] ==> dir [/usr/lib]
-    arg [CMakeFiles/cmTC_ce5ea.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_45ee2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -318,14 +318,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_797d5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_797d5.dir/build.make CMakeFiles/cmTC_797d5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4fd24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fd24.dir/build.make CMakeFiles/cmTC_4fd24.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_797d5.dir/feature_tests.cxx.o
-/installer/import/debian/c++/clang/bin/clang++     -std=c++14 -o CMakeFiles/cmTC_797d5.dir/feature_tests.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_797d5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_797d5.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_797d5.dir/feature_tests.cxx.o  -o cmTC_797d5 -rdynamic 
+Building CXX object CMakeFiles/cmTC_4fd24.dir/feature_tests.cxx.o
+/installer/import/debian/c++/clang/bin/clang++     -std=c++14 -o CMakeFiles/cmTC_4fd24.dir/feature_tests.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4fd24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fd24.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_4fd24.dir/feature_tests.cxx.o  -o cmTC_4fd24 -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -391,14 +391,14 @@ make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFil
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e27cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e27cd.dir/build.make CMakeFiles/cmTC_e27cd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_e8eaa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e8eaa.dir/build.make CMakeFiles/cmTC_e8eaa.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e27cd.dir/feature_tests.cxx.o
-/installer/import/debian/c++/clang/bin/clang++     -std=c++11 -o CMakeFiles/cmTC_e27cd.dir/feature_tests.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_e27cd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e27cd.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_e27cd.dir/feature_tests.cxx.o  -o cmTC_e27cd -rdynamic 
+Building CXX object CMakeFiles/cmTC_e8eaa.dir/feature_tests.cxx.o
+/installer/import/debian/c++/clang/bin/clang++     -std=c++11 -o CMakeFiles/cmTC_e8eaa.dir/feature_tests.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e8eaa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8eaa.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_e8eaa.dir/feature_tests.cxx.o  -o cmTC_e8eaa -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -464,14 +464,14 @@ make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFil
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f9de5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f9de5.dir/build.make CMakeFiles/cmTC_f9de5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c2cba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2cba.dir/build.make CMakeFiles/cmTC_c2cba.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f9de5.dir/feature_tests.cxx.o
-/installer/import/debian/c++/clang/bin/clang++     -std=c++98 -o CMakeFiles/cmTC_f9de5.dir/feature_tests.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_f9de5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9de5.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_f9de5.dir/feature_tests.cxx.o  -o cmTC_f9de5 -rdynamic 
+Building CXX object CMakeFiles/cmTC_c2cba.dir/feature_tests.cxx.o
+/installer/import/debian/c++/clang/bin/clang++     -std=c++98 -o CMakeFiles/cmTC_c2cba.dir/feature_tests.cxx.o -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c2cba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2cba.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang++        CMakeFiles/cmTC_c2cba.dir/feature_tests.cxx.o  -o cmTC_c2cba -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
@@ -535,28 +535,28 @@ make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFil
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_26a32/fast"
-/usr/bin/make -f CMakeFiles/cmTC_26a32.dir/build.make CMakeFiles/cmTC_26a32.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c5dc7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c5dc7.dir/build.make CMakeFiles/cmTC_c5dc7.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_26a32.dir/CheckIncludeFile.c.o
-/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_26a32.dir/CheckIncludeFile.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_26a32
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a32.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_26a32.dir/CheckIncludeFile.c.o  -o cmTC_26a32 -rdynamic 
+Building C object CMakeFiles/cmTC_c5dc7.dir/CheckIncludeFile.c.o
+/installer/import/debian/c++/clang/bin/clang     -o CMakeFiles/cmTC_c5dc7.dir/CheckIncludeFile.c.o   -c /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5dc7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5dc7.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang       CMakeFiles/cmTC_c5dc7.dir/CheckIncludeFile.c.o  -o cmTC_c5dc7 -rdynamic 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_23e75/fast"
-/usr/bin/make -f CMakeFiles/cmTC_23e75.dir/build.make CMakeFiles/cmTC_23e75.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_747ac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_747ac.dir/build.make CMakeFiles/cmTC_747ac.dir/build
 make[1]: Entering directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_23e75.dir/CheckFunctionExists.c.o
-/installer/import/debian/c++/clang/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_23e75.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_23e75
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23e75.dir/link.txt --verbose=1
-/installer/import/debian/c++/clang/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_23e75.dir/CheckFunctionExists.c.o  -o cmTC_23e75 -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_747ac.dir/CheckFunctionExists.c.o
+/installer/import/debian/c++/clang/bin/clang    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_747ac.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_747ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_747ac.dir/link.txt --verbose=1
+/installer/import/debian/c++/clang/bin/clang   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_747ac.dir/CheckFunctionExists.c.o  -o cmTC_747ac -rdynamic -lpthread 
 make[1]: Leaving directory '/home/stud/s8jobech/2.Uebung/Uebung02/build/CMakeFiles/CMakeTmp'
 
 

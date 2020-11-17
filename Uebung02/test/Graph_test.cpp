@@ -104,6 +104,18 @@ TEST(Graph, removeEdge1)
     ASSERT_EQ(val2, n2->out_edges.size());
 }
 
+TEST(Graph, ostreamOpp)
+{
+    Graph<Sequence<DNA>> graph;
+    std::stringstream ss;
+    ss << graph;
+    std::string str = ss.str();
+        std::cout << str << std::endl;
+    std::string gs = "digraph Sequences {\nnodesep=0.7\n}\n";
+        std::cout << gs ;
+    ASSERT_EQ(0, str.compare(gs));
+}
+
 TEST(Graph, removeEdges2) 
 {
     Sequence<DNA> seq1 = Sequence<DNA>::fromString("GCAATG");

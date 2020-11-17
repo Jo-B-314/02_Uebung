@@ -1,16 +1,16 @@
-Start testing: Nov 16 19:27 CET
+Start testing: Nov 17 16:46 CET
 ----------------------------------------------------------
 1/1 Testing: Graph_test
 1/1 Test: Graph_test
 Command: "/home/stud/s8jobech/2.Uebung/Uebung02/build/test/Graph_test"
 Directory: /home/stud/s8jobech/2.Uebung/Uebung02/build/test
-"Graph_test" start time: Nov 16 19:27 CET
+"Graph_test" start time: Nov 17 16:46 CET
 Output:
 ----------------------------------------------------------
 Running main() from gtest_main.cc
-[==========] Running 9 tests from 3 test cases.
+[==========] Running 10 tests from 3 test cases.
 [----------] Global test environment set-up.
-[----------] 7 tests from Graph
+[----------] 8 tests from Graph
 [ RUN      ] Graph.oneEdge
 [       OK ] Graph.oneEdge (0 ms)
 [ RUN      ] Graph.contractEdge
@@ -21,11 +21,20 @@ Running main() from gtest_main.cc
 [       OK ] Graph.addEdge (0 ms)
 [ RUN      ] Graph.removeEdge1
 [       OK ] Graph.removeEdge1 (0 ms)
+[ RUN      ] Graph.ostreamOpp
+digraph Sequences {
+nodesep=0.7
+}
+
+digraph Sequences {
+nodesep=0.7
+}
+[       OK ] Graph.ostreamOpp (0 ms)
 [ RUN      ] Graph.removeEdges2
 [       OK ] Graph.removeEdges2 (0 ms)
 [ RUN      ] Graph.contractFail
 [       OK ] Graph.contractFail (0 ms)
-[----------] 7 tests from Graph (0 ms total)
+[----------] 8 tests from Graph (0 ms total)
 
 [----------] 1 test from graph
 [ RUN      ] graph.removeEdgesFail
@@ -38,14 +47,14 @@ Running main() from gtest_main.cc
 [----------] 1 test from Assembler (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 9 tests from 3 test cases ran. (0 ms total)
-[  PASSED  ] 9 tests.
+[==========] 10 tests from 3 test cases ran. (0 ms total)
+[  PASSED  ] 10 tests.
 <end of output>
-Test time =   0.04 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"Graph_test" end time: Nov 16 19:27 CET
+"Graph_test" end time: Nov 17 16:46 CET
 "Graph_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 16 19:27 CET
+End testing: Nov 17 16:46 CET
