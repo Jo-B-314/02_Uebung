@@ -181,7 +181,7 @@ template <typename NodeLabel> class Graph
                     removeEdge(&(*node_iter), first);
                     /*
                      * it's not very efficent but otherwise we get a segmentation fault
-                     * but we should think again about this again
+                     * but we should think about this again
                      */
                     edge_iter = node_iter->out_edges.begin();
                     continue;

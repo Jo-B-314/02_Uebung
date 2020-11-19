@@ -10,6 +10,10 @@
 
 using namespace Alphabet;
 
+/**
+ * our main can be called ./graph fasta.fa file.dot # we read DNA Sequences with fromFasta
+ * out of fasta.fa and store our overlap-graph in file.dot
+ */
 int main(int argc, char* argv[])
 {
 	if (argc != 3) {

@@ -58,7 +58,7 @@ add_library(sequence SHARED
 # Erstelle das Programm "graph".
 add_executable(graph graph.cpp)
 
-# Damit convert Ihren Code verwenden kann muss
+# Damit graph unseren Code verwenden kann muss
 # die sequence Bibliothek zum Programm "gelinkt" werden.
 target_link_libraries(graph sequence ${CIP_STD_LIBS})
 
