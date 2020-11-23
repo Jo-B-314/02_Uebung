@@ -56,11 +56,11 @@ add_library(sequence SHARED
 )
 
 # Erstelle das Programm "graph".
-add_executable(graph graph.cpp)
+add_executable(assemble assemble.cpp)
 
 # Damit graph unseren Code verwenden kann muss
 # die sequence Bibliothek zum Programm "gelinkt" werden.
-target_link_libraries(graph sequence ${CIP_STD_LIBS})
+target_link_libraries(assemble sequence ${CIP_STD_LIBS})
 
 # Aktiviere die Unittestfunktionalität von CMake.
 enable_testing()

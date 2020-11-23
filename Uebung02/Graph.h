@@ -161,7 +161,15 @@ template <typename NodeLabel> class Graph
          * all outgoing edges of n1 will be ignored  because we heard in the
          * OH that it makes no sense to let them be also edges of n12 in a overlap-graph
          */
-        
+        auto iter_out_n12 =  n12->out_edges.begin();
+        while (iter_out_n12 != n12->out_edges.end()) {
+        	if (iter_out_n12->first == n1) {
+        		n12->out_edges.erase(iter_out_n12);
+        		iter_out_n12 = n12->out_edges.begin();
+                continue;
+        	}
+        	iter_out_n12++;
+        }
         node_iterator node_iter = beginNodes();
         while (node_iter != endNodes()) {
             auto edge_iter = node_iter->out_edges.begin();
@@ -225,6 +233,7 @@ std::ostream& operator<<(std::ostream& os, const Graph<NL>& graph) {
     auto node_iter = graph.beginNodes();
     while (node_iter != graph.endNodes()) {
         std::string name1 = node_iter->label.toString();
+        os << name1 << std::endl;
         auto edge_iter = node_iter->out_edges.begin();
         while (edge_iter != node_iter->out_edges.end()) {
             std::string name2 = (edge_iter->first)->label.toString();

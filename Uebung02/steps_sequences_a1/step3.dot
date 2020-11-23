@@ -1,0 +1,6 @@
+digraph Sequences {
+nodesep=0.7
+CATAC
+CATAC -> ACCATCTTTGCCGGTCGCGACAA [label="2"]
+ACCATCTTTGCCGGTCGCGACAA
+}

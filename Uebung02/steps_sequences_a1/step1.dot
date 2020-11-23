@@ -1,0 +1,14 @@
+digraph Sequences {
+nodesep=0.7
+CTTTGC
+CTTTGC -> CATAC [label="1"]
+CTTTGC -> TTGCCGGTCGCGACAA [label="4"]
+CATAC
+CATAC -> CTTTGC [label="1"]
+CATAC -> ACCATCTT [label="2"]
+ACCATCTT
+ACCATCTT -> CTTTGC [label="3"]
+ACCATCTT -> TTGCCGGTCGCGACAA [label="2"]
+TTGCCGGTCGCGACAA
+TTGCCGGTCGCGACAA -> ACCATCTT [label="1"]
+}

@@ -6,6 +6,7 @@
 #include <memory>
 #include <vector>
 #include <iostream>
+#include <cassert>
 
 using Seq = Sequence<Alphabet::DNA>;
 using OGraph = Graph<Seq>;
@@ -46,4 +47,37 @@ bool Assembler::isValid(const OGraph::Edge& e) {
     }
     //we found just one or no one at all
     return false;
+}
+
+void Assembler::joinLargestEdge() {
+    size_t max = 0;
+    OGraph::Edge e(nullptr, nullptr, 0);
+    for (auto node_iter = graph_.beginNodes(); node_iter != graph_.endNodes(); node_iter++) {
+        for (auto edge_iter = node_iter->out_edges.begin(); 
+             edge_iter != node_iter->out_edges.end(); edge_iter++) {
+            if (edge_iter->second > max) {
+                max = edge_iter->second;
+                e.source = &*node_iter;
+                e.target = edge_iter->first;
+                e.weight = edge_iter->second;
+            }
+        }
+    }
+    size_t comp0 = 0;
+    if (max != comp0) {
+        assert(e.source != nullptr);
+        assert(e.target != nullptr);
+        assert(isValid(e));
+        graph_.contractEdge(e);
+    }
+}
+
+Seq Assembler::assemble() {
+    size_t comp1 = 1;
+    while (graph_.numNodes() > comp1) {
+        joinLargestEdge();
+    }
+    assert(graph_.numNodes() == comp1);
+    auto nodeptr = graph_.beginNodes();
+    return nodeptr->label;
 }
