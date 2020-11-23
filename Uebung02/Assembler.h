@@ -17,6 +17,21 @@ class Assembler
 	 */
 	Assembler(const std::vector<Assembler::Seq>& sequences);
     
+    /**
+     * computes whether source and target of the edge are still nodes of graph_
+     */
+    bool isValid(const OGraph::Edge& e);
+    
+    /**
+     * contracts edge with highest weight
+     */
+    void joinLargestEdge();
+    
+    /**
+     * uses Greedy Alg an returns computed Sequence
+     */
+    Seq assemble();
+    
     Assembler(): graph_() {}
     /**
      * returns the overlap-graph so the user can call every function

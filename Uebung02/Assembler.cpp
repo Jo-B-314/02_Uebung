@@ -31,3 +31,19 @@ Assembler::Assembler(const std::vector<Seq>& sequences){
         iter1++;
     }
 }
+
+bool isValid(OGraph::Edge& e) {
+    bool b = false;
+    for (auto iter = graph_.beginNodes(); iter != graph_.endNodes()) {
+        if (iter == e.source || iter == e.target) {
+            if (b) {
+                //we found both
+                return true;
+            }
+            //we found one
+            b = true;
+        }
+    }
+    //we found just one or no one at all
+    return false;
+}
