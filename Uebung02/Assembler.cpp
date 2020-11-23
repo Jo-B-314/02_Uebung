@@ -32,10 +32,10 @@ Assembler::Assembler(const std::vector<Seq>& sequences){
     }
 }
 
-bool isValid(OGraph::Edge& e) {
+bool Assembler::isValid(const OGraph::Edge& e) {
     bool b = false;
-    for (auto iter = graph_.beginNodes(); iter != graph_.endNodes()) {
-        if (iter == e.source || iter == e.target) {
+    for (auto iter = graph_.beginNodes(); iter != graph_.endNodes(); iter++) {
+        if (&*iter == e.source || &*iter == e.target) {
             if (b) {
                 //we found both
                 return true;
