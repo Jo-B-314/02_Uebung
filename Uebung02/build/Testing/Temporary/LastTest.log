@@ -1,0 +1,92 @@
+Start testing: Nov 24 10:43 CET
+----------------------------------------------------------
+1/2 Testing: Graph_test
+1/2 Test: Graph_test
+Command: "/home/stud/s8jobech/2.Uebung/Uebung02/build/test/Graph_test"
+Directory: /home/stud/s8jobech/2.Uebung/Uebung02/build/test
+"Graph_test" start time: Nov 24 10:43 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 10 tests from 3 test cases.
+[----------] Global test environment set-up.
+[----------] 8 tests from Graph
+[ RUN      ] Graph.oneEdge
+[       OK ] Graph.oneEdge (0 ms)
+[ RUN      ] Graph.contractEdge
+[       OK ] Graph.contractEdge (0 ms)
+[ RUN      ] Graph.addNode
+[       OK ] Graph.addNode (0 ms)
+[ RUN      ] Graph.addEdge
+[       OK ] Graph.addEdge (0 ms)
+[ RUN      ] Graph.removeEdge1
+[       OK ] Graph.removeEdge1 (0 ms)
+[ RUN      ] Graph.ostreamOpp
+digraph Sequences {
+nodesep=0.7
+}
+
+digraph Sequences {
+nodesep=0.7
+}
+[       OK ] Graph.ostreamOpp (0 ms)
+[ RUN      ] Graph.removeEdges2
+[       OK ] Graph.removeEdges2 (0 ms)
+[ RUN      ] Graph.contractFail
+[       OK ] Graph.contractFail (0 ms)
+[----------] 8 tests from Graph (0 ms total)
+
+[----------] 1 test from graph
+[ RUN      ] graph.removeEdgesFail
+[       OK ] graph.removeEdgesFail (0 ms)
+[----------] 1 test from graph (0 ms total)
+
+[----------] 1 test from Assembler
+[ RUN      ] Assembler.overlap
+[       OK ] Assembler.overlap (0 ms)
+[----------] 1 test from Assembler (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 3 test cases ran. (1 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Graph_test" end time: Nov 24 10:43 CET
+"Graph_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: Assembler_test
+2/2 Test: Assembler_test
+Command: "/home/stud/s8jobech/2.Uebung/Uebung02/build/test/Assembler_test"
+Directory: /home/stud/s8jobech/2.Uebung/Uebung02/build/test
+"Assembler_test" start time: Nov 24 10:43 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+[==========] Running 4 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 4 tests from Assembler
+[ RUN      ] Assembler.isValid
+[       OK ] Assembler.isValid (0 ms)
+[ RUN      ] Assembler.isValid2
+[       OK ] Assembler.isValid2 (0 ms)
+[ RUN      ] Assembler.joinEdges
+[       OK ] Assembler.joinEdges (0 ms)
+[ RUN      ] Assembler.assembleSeq
+[       OK ] Assembler.assembleSeq (0 ms)
+[----------] 4 tests from Assembler (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test case ran. (0 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Assembler_test" end time: Nov 24 10:43 CET
+"Assembler_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 24 10:43 CET

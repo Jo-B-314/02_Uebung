@@ -24,4 +24,5 @@ add_library(test_driver main_test.cpp)
 # Füge einen Test hinzu. Sie können die folgende
 # Zeile für neue Tests einfach kopieren und anpassen.
 add_gtest(Graph_test LIBRARIES sequence)
+add_gtest(Assembler_test LIBRARIES sequence)
 
