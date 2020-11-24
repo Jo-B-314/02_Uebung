@@ -1,2 +1,0 @@
-/usr/bin/ar qc libtest_driver.a  CMakeFiles/test_driver.dir/main_test.cpp.o
-/usr/bin/ranlib libtest_driver.a
